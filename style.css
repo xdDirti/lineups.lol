@@ -1,6 +1,6 @@
 body {
   font-family: "Space Mono", monospace;
-  font-size: xx-large;
+  font-size: 50;
   color: aliceblue;
   background-color: rgba(27, 27, 27);
   --nav-load-time: 800ms;
