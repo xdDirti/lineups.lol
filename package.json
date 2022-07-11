@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "autoprefixer": "^10.4.2",
+    "axios": "^0.25.0",
+    "postcss": "^8.4.6"
+  },
+  "scripts": {
+    "build-css": "tailwindcss build style.css -o css/style.css"
+  }
+}
