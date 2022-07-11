@@ -1,11 +1,12 @@
 body {
   font-family: "Space Mono", monospace;
-  font-size: 50;
+  font-size: xx-large;
   color: aliceblue;
   background-color: rgba(27, 27, 27);
   --nav-load-time: 800ms;
 }
 
+
 p {
   background-color: rgba(31, 31, 31, 0);
   border-radius: 10px;
@@ -19,7 +20,7 @@ p span {
 }
 
 header {
-  font-size: 50px;
+  font-size: 85;
   /* was 45 */
   background-color: rgba(31, 31, 31, 0);
   border-radius: 10px;
@@ -78,74 +79,3 @@ header {
   text-shadow: 0 0 10px #000;
 }
 
-p {
-  background-color: rgba(31, 31, 31, 0);
-  border-radius: 10px;
-  text-align: center;
-  animation: nav-load var(--nav-load-time) ease-in;
-  text-shadow: 0 0 10px #000;
-}
-
-p span {
-  font-size: 45px;
-}
-
-header {
-  font-size: 50px;
-  /* was 45 */
-  background-color: rgba(31, 31, 31, 0);
-  border-radius: 10px;
-  text-align: center;
-  animation: nav-load var(--nav-load-time) ease-in;
-  padding-left: cm;
-  text-shadow: 0 0 15px #000;
-}
-
-@keyframes nav-load {
-  0% {
-    transform: translateY(-100%);
-    opacity: 0;
-  }
-
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-
-@keyframes nav-load-two {
-  0% {
-    transform: translateX(-100%);
-    opacity: 0;
-  }
-
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
-
-#background-video {
-  width: 100vw;
-  height: 100vh;
-  object-fit: cover;
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  z-index: -1;
-}
-
-.footer {
-  background-color: rgba(0, 0, 0, 0);
-  position: fixed;
-  left: 0px;
-  bottom: 0px;
-  right: 0px;
-  width: 100%;
-  color: aliceblue;
-  text-align: center;
-  font-size: 17px;
-  text-shadow: 0 0 10px #000;
-}
